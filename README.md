@@ -1,12 +1,17 @@
 [![](https://jitpack.io/v/qiujayen/sticky-layoutmanager.svg)](https://jitpack.io/#qiujayen/sticky-layoutmanager)
 
 
-# sticky-layoutmanager
+# Sticky-LayoutManager
 An android recyclerView sticky item view layout manager library
 
 |Image|Image|Image|
 |:-:|:-:|:-:|
 |![](images/Screenshot_1512376684.png)|![](images/Screenshot_1512376696.png)|![](images/Screenshot_1512376704.png)|
+
+## Download Demo Apk
+|[apk](apk/app-debug.apk)|
+|:-:|
+|![](images/apkqrcode.png)|
 
 ## How to
 ### Step 1. Add the JitPack repository to your build file
@@ -31,7 +36,7 @@ dependencies {
 implementation 'com.android.support:recyclerview-v7:version code'
 ```
 
-## How to use sticky layoutmanager?
+## How to use StickyLayoutManager?
 ```java
 class RecyclerView.Adapter implements StickyHeaders {
   public boolean isStickyHeader(int position) {
