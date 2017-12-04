@@ -6,7 +6,7 @@ An android recyclerView sticky item view layout manager library
 
 |Image|Image|Image|
 |:-:|:-:|:-:|
-||||
+|![](images/Screenshot_1512376684.png)|![](images/Screenshot_1512376696.png)|![](images/Screenshot_1512376704.png)|
 
 ## How to
 ### Step 1. Add the JitPack repository to your build file
