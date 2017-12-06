@@ -45,10 +45,8 @@ class RecyclerView.Adapter implements StickyHeaders {
 }
 ```
 ```java
-RecyclerView.setLayoutManager(...);
-```
-
 RecyclerView.setLayoutManager(new StickyHeaders...xxx...LayoutManager<RecyclerView.Adapter & StickyHeaders>());
+```
 
 ## Thanks
 This library is inspired by ![Doist](https://github.com/Doist/RecyclerViewExtensions/tree/master/StickyHeaders), and use it to the source code for the implementation of the other two layoutmanager.
