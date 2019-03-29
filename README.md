@@ -1,8 +1,8 @@
-[![](https://jitpack.io/v/qiujayen/sticky-layoutmanager.svg)](https://jitpack.io/#qiujayen/sticky-layoutmanager)
+[![](https://jitpack.io/v/ruslansharipov/sticky-layoutmanager.svg)](https://jitpack.io/#ruslansharipov/sticky-layoutmanager)
 
 
 # Sticky-LayoutManager
-An android recyclerView sticky item view layout manager library
+An androidx recyclerView sticky item view layout manager library
 
 |Image|Image|Image|
 |:-:|:-:|:-:|
@@ -28,12 +28,12 @@ allprojects {
 ### Step 2. Add the dependency
 ```groovy
 dependencies {
-	implementation 'com.github.qiujayen:sticky-layoutmanager:last-version'
+	implementation 'com.github.ruslansharipov:sticky-layoutmanager:1.0.2'
 }
 ```
 ### This library dependencies
 ```groovy
-implementation 'com.android.support:recyclerview-v7:version code'
+implementation 'androidx.recyclerview:recyclerview:1.0.0'
 ```
 
 ## How to use StickyLayoutManager?
@@ -50,6 +50,7 @@ RecyclerView.setLayoutManager(new StickyHeaders...xxx...LayoutManager<RecyclerVi
 
 ## Thanks
 This library is inspired by ![Doist](https://github.com/Doist/RecyclerViewExtensions/tree/master/StickyHeaders), and use it to the source code for the implementation of the other two layoutmanager.
+And many thanks to QiuJay, who made this library. I just added support for androidx to it.
 
 ## License
 Copyright 2017 QiuJay Inc.
