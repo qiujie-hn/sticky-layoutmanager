@@ -2,10 +2,12 @@ package com.jay.widget;
 
 import android.view.View;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 /**
  * Created by jay on 2017/12/4 上午10:52
  *
- * Adds sticky headers capabilities to the {@link android.support.v7.widget.RecyclerView.Adapter}. Should return {@code true} for all
+ * Adds sticky headers capabilities to the {@link RecyclerView.Adapter}. Should return {@code true} for all
  * positions that represent sticky headers.
  *
  * @link https://github.com/Doist/RecyclerViewExtensions/blob/master/StickyHeaders
